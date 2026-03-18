@@ -29,25 +29,35 @@ Go Structs (Huma tags) → OpenAPI Spec → Typed SDK → Frontend
 
 ## Install
 
-### From marketplace
+Add the marketplace, then install:
+
 ```
+/plugin marketplace add Bishwas-py/gopilot
 /plugin install gopilot
 ```
 
-### Local development
+Or load locally without installing:
+
 ```bash
 claude --plugin-dir /path/to/gopilot
 ```
 
 ### Team setup
 
-Add to your project's `.claude/settings.json`:
+Add to your project's `.claude/settings.json` so team members get prompted automatically:
+
 ```json
 {
-  "plugins": {
+  "extraKnownMarketplaces": {
     "gopilot": {
-      "source": "https://github.com/Bishwas-py/gopilot"
+      "source": {
+        "source": "github",
+        "repo": "Bishwas-py/gopilot"
+      }
     }
+  },
+  "enabledPlugins": {
+    "gopilot@gopilot": true
   }
 }
 ```
