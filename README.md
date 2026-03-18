@@ -12,6 +12,7 @@ Go-first full-stack Claude Code plugin. Scaffolds Go backends, generates typed f
 | SDK | `/gopilot:sdk` | Generate typed frontend SDK from OpenAPI |
 | Schema | `/gopilot:schema [action] [details]` | Manage PostgreSQL schema |
 | WebSocket | `/gopilot:ws [feature]` | Add WebSocket support |
+| Check | `/gopilot:check [backend\|frontend\|sdk\|all]` | Audit code against gopilot conventions |
 
 ## How It Works
 
