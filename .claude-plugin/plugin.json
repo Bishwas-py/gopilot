@@ -1,0 +1,11 @@
+{
+  "name": "gopilot",
+  "description": "Go-first full-stack development plugin. Scaffolds Go backends (Huma/Chi), generates typed frontend SDKs, and guides backend-to-frontend flow for SvelteKit and Next.js.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bishwas Bhandari"
+  },
+  "homepage": "https://github.com/Bishwas-py/gopilot",
+  "repository": "https://github.com/Bishwas-py/gopilot",
+  "license": "MIT"
+}

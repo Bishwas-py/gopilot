@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gopilot-tools": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/gopilot-tools/dist/index.js"],
+      "env": {
+        "GOPILOT_FRONTEND": "${GOPILOT_FRONTEND:-svelte}"
+      }
+    }
+  }
+}

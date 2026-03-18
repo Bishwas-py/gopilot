@@ -1,0 +1,16 @@
+{
+  "name": "gopilot",
+  "owner": {
+    "name": "Bishwas Bhandari"
+  },
+  "metadata": {
+    "description": "Go-first full-stack development plugin with typed SDK generation for SvelteKit and Next.js"
+  },
+  "plugins": [
+    {
+      "name": "gopilot",
+      "source": "./",
+      "description": "Go backend scaffolding, domain-driven architecture, and typed frontend SDK generation"
+    }
+  ]
+}
